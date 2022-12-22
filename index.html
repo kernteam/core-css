@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Core CSS example</title>
+  <link rel="preload" href="fonts/OpenSans-VariableFont_wdth,wght.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="Oswald-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="css/app.css" as="style" />
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body style="padding: 16px;">
+  <div class="container">
+    <div class="card bg--lighter">
+      <div class="card__header">
+        <h1 class="card__title">Core CSS example</h1>
+      </div>
+      <div class="card__body flex flex--column gap--small">
+        <span class="h1">Heading 1</span>
+        <span class="h2">Heading 2</span>
+        <span class="h3">Heading 3</span>
+        <p>Paragraph</p>
+        <p><code>Code</code></p>
+        <hr />
+        <div>
+          <label for="input">Input</label>
+          <input type="text" id="input" name="input" placeholder="This is an input" />
+        </div>
+        <div>
+          <label for="textarea">Textarea</label>
+          <textarea id="textarea" name="textarea" rows="4" placeholder="This is a textarea"></textarea>
+        </div>
+        <div>
+          <button>Button</button>
+        </div>
+      </div>
+      <div class="card__footer">
+        <small><span class="emoji">♥️</span> Developed by <a href="https://coreteam.com.br" title="https://coreteam.com.br">CoreTeam</a></small>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
